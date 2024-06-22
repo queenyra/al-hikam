@@ -186,7 +186,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 105, 85, 0.516) 0%, rgba(55, 84, 72, 0.689) 100%), url("../assets/mukhoyyam1.JPG");
+  background: linear-gradient(to bottom, rgba(92, 105, 85, 0.516) 0%, rgba(55, 84, 72, 0.689) 100%), url("../assets/9.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11138,4 +11138,10 @@ html {
 
 .my-float{
 	margin-top:16px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030; /* Agar berada di atas elemen lain */
 }
